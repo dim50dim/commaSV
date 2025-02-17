@@ -11,12 +11,12 @@
 
 
 // Task 02
-const task_02 = require('./task_02');
+// const task_02 = require('./task_02');
 
-(async function () {
-    let res = await task_02()
-    console.log(res);
-})();
+// (async function () {
+//     let res = await task_02()
+//     console.log(res);
+// })();
 
 
 // Task 03
@@ -29,12 +29,12 @@ const task_02 = require('./task_02');
 
 
 // Task 04
-// const task_04 = require('./task_04.js');
+const task_04 = require('./task_04.js');
 
-// (async function () {
-//     let res = await task_04()
-//     console.log(res); // ожидаю ['Green', 'Yellow', 'Orange']
-// })();
+(async function () {
+    let res = await task_04()
+    console.log(res); // ожидаю ['Green', 'Yellow', 'Orange']
+})();
 
 
 // Task 05

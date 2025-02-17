@@ -6,6 +6,17 @@
 const getCSV = require('./get_csv');
 
 module.exports = async function () {
-  
+  const result = await getCSV('./f_06/v_04.csv',{
+                                                  columns: true,
+                                                  delimiter: ";",
+
+  });
+    let arr = [];
+    result.map(colors => {
+        for(let key in colors){
+             arr.push(colors[key]);
+        }
+    });
+    return arr;
 }
 
