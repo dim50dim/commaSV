@@ -2,21 +2,21 @@
 // Для удобства работы можно комментировать вызовы не используемых в данный момент tasks
 
 // Task 01
-const task_01 = require('./task_01');
+// const task_01 = require('./task_01');
 
-(async function () {
-    let res = await task_01()
-    console.log(res);
-})();
+// (async function () {
+//     let res = await task_01()
+//     console.log(res);
+// })();
 
 
 // Task 02
-// const task_02 = require('./task_02');
+const task_02 = require('./task_02');
 
-// (async function () {
-//     let res = await task_02()
-//     console.log(res);
-// })();
+(async function () {
+    let res = await task_02()
+    console.log(res);
+})();
 
 
 // Task 03
