@@ -65,12 +65,12 @@
 
 
 // Task 08
-const task_08 = require('./task_08.js');
+// const task_08 = require('./task_08.js');
 
-(async function () {
-    let res = await task_08()
-    console.log(res); 
-})();
+// (async function () {
+//     let res = await task_08()
+//     console.log(res); 
+// })();
 
 
 // Task 09
@@ -83,9 +83,9 @@ const task_08 = require('./task_08.js');
 
 
 // Task 10
-// const task_10 = require('./task_10.js');
+const task_10 = require('./task_10.js');
 
-// (async function () {
-//     let res = await task_10()
-//     console.log(res); 
-// })();
+(async function () {
+    let res = await task_10()
+    console.log(res); 
+})();
