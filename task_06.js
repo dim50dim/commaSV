@@ -6,5 +6,10 @@
 const getCSV = require('./get_csv');
 
 module.exports = async function () {
-  
+  const result = await getCSV('./f_06/v_06.csv',{
+                                                columns: true,
+                                                skip_empty_lines: true,
+                                                delimiter : ','
+  });
+  return result;
 }
